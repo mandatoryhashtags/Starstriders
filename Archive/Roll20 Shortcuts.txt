@@ -1,0 +1,14 @@
+?{Choose an Roll Type|5e,1d20|New,2d6}
+
+
+?{Damage Type|Stun, 5d6|Kill, 2d8}
+
+
+?{Choose an Roll Type|5e,1d20|New,2d6}
+
+?{Number of Dice|2}d20>?{TN}
+
+
+?{Choose an Roll Type|5e,1d20|New,?{Number of Dice|2}d20>?{TN}}
+
+?{Choose an Roll Type|5e,1d20|New,2d20>?{TN}}
