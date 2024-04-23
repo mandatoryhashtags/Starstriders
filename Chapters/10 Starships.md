@@ -334,19 +334,45 @@ These are considered a free action/minor action and only 1 can be done per round
 
 #### Communications
 
+| Action         | Difficulty | Power Cost | Test                    | Effect                                                                                                        |
+| -------------- | ---------- | ---------- | ----------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Open a Channel | 0          | 0          | Int+Ops A: Comms + Eng  | A channel has been opened and a hailing signal or message has been sent. Only required when there is a reason |
+| Intercept      | Varies     | 0          | Wis+Tech A: Comms + Sec | Success means that the message has been successfully intercepted, and its contents revealed.                  |
+| Signal Jamming | 1,2,3      | 1          | Dex+Ops A:Coms+Sec      | Increase difficulty for target to send/recieve messages by D                                                  |
+| Damage Report  | 1          | 0          | Wis+Ops A Coms+Eng      | Reduce difficulty of one repair task by 1                                                                     |
+
 #### Navigation
+
+| Action       | Difficulty | Power Cost | Test                 | Effect                                                                        |
+| ------------ | ---------- | ---------- | -------------------- | ----------------------------------------------------------------------------- |
+| Plot Course  | 1          | 0          | Int+Ops A:Comps+Conn | If successful, the next Task the helmsman attempts reduces in Difficulty by 1 |
+| Chart Hazard | 3          | 0          | Int+Ops A:Sen+Conn   | If successful, nominate a single hazard reduced difficulty by 1               |
 
 #### Sensors
 
-#### Tactical
+| Action            | Difficulty | Power Cost | Test                 | Effect                                                                                                    |
+| ----------------- | ---------- | ---------- | -------------------- | --------------------------------------------------------------------------------------------------------- |
+| Sensor Sweep      | 0          | 0          | Int+Mental A:Sen+Sci | 1 success = Obtain Information                                                                            |
+| Scan for Weakness | 1          | 0          | Dex+Mental A:Sen+Sec | Next Attack, before the end of the sensor operator’s next Turn, gains the Piercing 2 quality              |
+| Launch Probe      | 0          | 0          | No Roll              | It reduces the Difficulty of Tasks to make a Sensor Sweep with regards to phenomena near the probe by two |
 
 #### Security
 
+| Action               | Difficulty | Power Cost | Test                 | Effect                                                                 |
+| -------------------- | ---------- | ---------- | -------------------- | ---------------------------------------------------------------------- |
+| Internal Sensors     | 1          | 0          | Int+Ops A: Sens+Sec  | 1 success = Obtain Information                                         |
+| Deploy Security      | 1          | 0          | Cha+Ops A: None      | Security team dispatched                                               |
+| Internal Containment | 1          | 1          | Int+Ops A: Struc+Sec | Sets up internal containment fields increasing difficulty by successes |
+
 #### Engineering
 
-#### Helm
-HELM ACTIONS
+| Action            | Difficulty          | Power Cost | Test                   | Effect                                                             |
+| ----------------- | ------------------- | ---------- | ---------------------- | ------------------------------------------------------------------ |
+| Power Management  | 2                   | 0          | Dex+Ops                | Gain 1 power per success + 1 Per heroism                           |
+| Regenrate Shields | 1 (2 if no shields) | 1          | Dex+Tech A:Struc + Eng | Ship regains 2 shields per net success + Heroism spent             |
+| Damage Control    | Varies              | 0          | Cha+Technical          | If successful system is restored to function does not fix breaches |
 
+#### Helm
 | Action         | Difficulty | Power Cost           | Test                              | Effect                                           |
 | -------------- | ---------- | -------------------- | --------------------------------- | ------------------------------------------------ |
 | Maneuver       | 0          | 1 per Zone traversed |                                   | The ship moves to the specified Zone             |
