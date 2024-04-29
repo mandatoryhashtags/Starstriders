@@ -1,17 +1,5 @@
 # The Galaxy
-
-2520 is the year the game is set in. It is set in the Milky Way Galaxy. 
-
-The game calendar is broken up into 3 sections. 
-
-Mankind learned to step off the blue dot of its home world in 2050 with a colony attempt on Mars. It failed in a spectacular way with all people being lost in a sand storm. The second attempt actually happened around the same time but Luna the moon was so close to Earth that it was a simpler affair, a lot of lessons learned on on Odyssey (the Mars expedition) that carrier over into Armstrong the name for the colony on Luna. The colony was established in 2082 but was not truly viable for habitation by the general public until 2095. At the turn of the century in 2100 another attempt was made for Mars at the same time an effort was made to settle Titan with the colony of Aldrin. Mars was colonized again under the name Gagarin to honor the first human in space.
-
-It soon became policy to refer to worlds by their Colony name. Colonies would develop a number of settlements, and towns over the coming centuries but are always called by their Colony designation. Much like a State in the United States. If you live in Houston Texas, you tell people you are from Texas and then get more specific about the city. People born on Luna tell people, "I was born on Luna in the capital Armstrong."
-
-The first real leap in technology came nearly 50 years later as humans were using their asteroid belt and rings around Saturn for Ice and raw materials. Experimentation was being done with gravity, and trying to find a way to get to another solar system. Alpha Centauri was four to five light years away, but even at the best speed possible at the time was about 1/10th of light speed at that rate it would take over 40 years to arrive. The first Paxton-Wells Gravity Drive was tested and finalized in 2151 it could make a light year in 16 months putting the best orbital arrival at about 5.7 years a long time but doable. So the first ship was sent with computers, several robots and a ton of scanning information about with the mission to return a few weeks after gathering data. 
-
-
-# 2151
+# 2310
 ## Imperium Space 
 - Earth [Human] (Sol) {Imperium Controlled}
 - Pioneer (Alpha Centuari) {Imperium Controlled}

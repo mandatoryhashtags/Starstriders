@@ -193,3 +193,20 @@ This is covered in classes but outlined here as well.
 
 # Things unchanged
 Anything not explicitely called out above works just like 5e. Saving Throws for example. 
+
+# Difficulty Step Chart for GM
+| Difficulty | Suggested TN               | Step | New |
+| ---------- | -------------------------- | ---- | --- |
+| 0          | No Test Needed             | -    | 0   |
+| 5          | Easy                       | 0    | 10  |
+| 10         | Standard                   | 1    | 15  |
+| 15         | Challenging                | 2    | 20  |
+| 20         | Difficult                  | 3    | 25  |
+| 25         | Virtually Impossible       | 4    | 30  |
+| 30         | Supremely Difficult        | 5    | 35  |
+| 35         | Supernatually Difficult    | 6    | 40  |
+| 40         | Heroically Difficult       | 7    | 45  |
+| 45         | This is likely a bad idea  | 8    | 50  |
+| 50         | Should not be possible     | 9    | 55  |
+| 55         | Divine Intervention needed | 10   | 60  |
+| 60         | Is impossible              | -    | 65  |

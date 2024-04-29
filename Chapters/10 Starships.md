@@ -23,6 +23,8 @@ Each starship in Astra Genesis is defined by six Systems, which work in a simila
 
 Characters may encounter situations in which more than one of their ship’s Systems are applicable. In these cases, it is important to consider the context of the situation, and how the character is choosing to approach the problem. The Gamemaster may choose which System is most applicable to a situation if more than one could be used.
 
+Systems all begin at 10, their Spaceframe will determine the final number. Starships get modifiers same as players do.
+
 #### COMMUNICATIONS
 This System encompasses the transmission, encryption, decryption, and retrieval of subspace signals on a range of frequencies, as well as a range of other forms of signals transmission and reception. Any Task that involves or relies upon communications systems should use Communications. A character might use a ship’s Communications...
 
@@ -160,49 +162,28 @@ A character may use the ship’s Medicine with...
 
 
 ### FOCUSES
-Due to their size, advanced technology, and competent crews, starships can easily be adapted to a wide range of activities and operations. As a result, unlike a character, a Starship does not have distinct Focuses, but instead treats every Task it attempts or assists as if it had an applicable Focus. As a result, any d20 rolled on behalf of the ship which rolls equal to or less than the ship’s Department scores two successes.
+Ships do not have foci
 
 ### TALENTS
 Starships have Talents, just as characters do, normally representing areas of design and equipment focus; they provide similar benefits to the Talents of Player Characters, but the context is determined by the starship rather than by character behaviors.
 
-### SCALE
-Vessels come in a wide range of sizes, from tiny shuttlecraft to stately cruisers and grand battleships. A vessel’s Scale is a representation of its size, and it influences several other ratings a starship will use. Scale is a number, typically between 2 and 6 for Alliance vessels, with larger numbers representing bigger ships. Most vessels fall into this range, though some exceptional craft — such as Borg cubes — may be larger, while Scale 1 is exclusively used for small craft such as shuttles.
+### SIZE
+Vessels come in a wide range of sizes, from tiny shuttlecraft to stately cruisers and grand battleships. A vessel’s Size is a representation of its size, and it influences several other ratings a starship will use. Size is a number, typically between 2 and 10 for Alliance vessels, with larger numbers representing bigger ships. Most vessels fall into this range, though some exceptional craft — such as Borg cubes — may be larger, while Size 1 is exclusively used for small craft such as shuttles.
 
-A starship’s scale is used to determine a number of other things, but it relates most importantly to the ship’s resilience — a ship with a greater Scale can resist attacks more easily, and withstand greater amounts of damage before systems are damaged, disabled, or destroyed. Ships with greater Scale can also project greater offensive power, allowing them to inflict greater damage with energy weapons like phasers and disruptors.
+A starship’s size is used to determine a number of other things, but it relates most importantly to the ship’s resilience — a ship with a greater Size can resist attacks more easily, and withstand greater amounts of damage before systems are damaged, disabled, or destroyed. Ships with greater Size can also project greater offensive power, allowing them to inflict greater damage with energy weapons like phasers and disruptors.
 
 ### RESISTANCE
-Starships are designed to be resilient, for the rigors of space exploration are considerable, and a vessel may have to survive with little or no support for months or even years at a time. This durability — a mixture of the ship’s hull and spaceframe composition, the effectiveness of the structural integrity field and deflector shields, redundancies built into vital systems, and sheer size — is expressed as Resistance, which reduces incoming damage suffered by a ship in the same way as it does to a character or creature (though on a much larger scale). A ship’s basic Resistance is equal to its Scale, though other factors may modify or replace this.
-
-
-| SCALE EXAMPLE | SHIPS                                                               |
-| ------------- | ------------------------------------------------------------------- |
-| 1             | Shuttles, Fighters — small craft                                    |
-| 2             | Runabout, Maquis Raider                                             |
-| 3             | Escort Class, Frigates, Freighters                                  |
-| 4             | Light Cruisers, Light Explorers, Destroyers                         |
-| 5             | Cruisers, Explorers, Heavy Destroyers                               |
-| 6             | Heavy Cruisers, Heavy Explorers, Multirole Explorer, Battlecruisers |
-| 7             | Battleships, Dreadnaughts, Colonizer                                |
-| 8             | Border Listening Post, Carriers, City Ships                         |
-| 9             |                                                                     |
-| 10            |                                                                     |
-| 11            |                                                                     |
-| 12            | Starbase                                                            |
-| 13            | Star Stations, SpaceDocks                                           |
-| 14            |                                                                     |
-| 15            |                                                                     |
-| 16            | Freedoms Gate                                                       |
-
+Starships are designed to be resilient, for the rigors of space exploration are considerable, and a vessel may have to survive with little or no support for months or even years at a time. This durability — a mixture of the ship’s hull and spaceframe composition, the effectiveness of the structural integrity field and deflector shields, redundancies built into vital systems, and sheer size — is expressed as Resistance, which reduces incoming damage suffered by a ship in the same way as it does to a character or creature (though on a much larger size). A ship’s basic Resistance is equal to its Half it's Size (rounded down) + structure modifier, though other factors may modify or replace this.
 
 ### SHIELDS
 Starships and starbases are commonly equipped with powerful layers of deflector shields. These powerful force fields are designed to protect from attacks and hazards, deflecting impacts and absorbing energy discharges. These shields are not impervious to harm, and sufficient force and power can weaken or even break through, damaging the hull and other systems beneath.
 
 A starship or starbase has a Shields rating, and this is reduced when the ship is subjected to damage, and which can be replenished through the actions of the crew and with time. If a vessel suffers too much damage from a single attack or hazard, then it will also suffer serious damage, which impairs the ship’s function until repaired.
 
-A ship normally has Shields equal to its Structure plus its Security, though other factors may modify or replace this. In most ways, a ship’s Shields are equivalent to a character’s Stress. However, ships do not suffer Injuries, as will be described in full later.
+A ship normally has Shields equal to its Structure Modifier plus its Security modifier multiply that by 5, though other factors may modify or replace this. In most ways, a ship’s Shields are equivalent to a character’s Temporary Hitpoints. Shields are used before Resistance removes damage.
 
-### POWER
-Vessels can generate massive amounts of power, but use much of it powering core systems like propulsion, shields, life support, sensors, computers, and so forth. A ship has a Power rating which represents its reserve and surplus power,
+### POWER (Deprecated)
+<!-- Vessels can generate massive amounts of power, but use much of it powering core systems like propulsion, shields, life support, sensors, computers, and so forth. A ship has a Power rating which represents its reserve and surplus power,
 which can be spent to boost or support a variety of actions taken with the starship, and which can be lost because of some complications, hazards, and consequences.
 
 At the start of each scene, the ship generates its full capacity of Power, and any Power which remained unused at the end of the previous scene is lost. This provides characters with a pool of points to draw from when attempting actions with the ship, or otherwise using technologies that draw from the ship’s power supplies. The basic operation of the ship — life support, communications, computers, and basic maneuvering — are assumed to have already been powered, and do not have to be considered under normal circumstances. Some actions — such as going to warp, or restoring depleted shields — require the expenditure of Power simply to perform the action, while others can gain a bonus from using additional power.
@@ -224,14 +205,14 @@ USES FOR POWER
 | 2     | Restore 2 shields 2 for each additional                     |
 | ?     | Go to warp - More power, faster escape, must match to catch |
 
-Power resets every round of combat. It is uncommon for a ship to run out of power. In Simplified combat power is not tracked.
+Power resets every round of combat. It is uncommon for a ship to run out of power. In Simplified combat power is not tracked. -->
 
 ### CREW SUPPORT
 Starships require a significant number of personnel, and a skilled officer knows best when to assign those personnel to different problems. Characters often have the advantage of Crew Support, in the form of these personnel. A ship has only a finite supply of Support, representing a small number of the crew available to them.
 
 The total amount of Crew Support available is determined by the ship — each vessel has only a finite amount of crew on hand, most of whom will be busy on routine duties to keep the ship running, and form part of the background of the ship’s normal activities. Spending Crew Support brings members of the crew from that mass of background activity into the forefront, putting focus on them and making them an active and significant part of the adventure.
 
-A ship’s normal allotment of Crew Support per mission is equal to its Scale.
+A ship’s normal allotment of Crew Support per mission is equal to its Size.
 
 ### SUBLIGHT
 Type of Sublight
@@ -240,20 +221,18 @@ Type of Sublight
 Type of FTL
 
 ### CARGO
-Scale x 10 in Cargo Units
+Size x 10 in Cargo Units
 
 1 Cargo Unit 100 Tons. 
 
 ### HULL POINTS
-Equal to Scale * 5 + STRUCTURE
+Equal to Size * 5 + STRUCTURE
 
 ### ATMOSPHERIC CAPABLE
+Can the ship operate in Atmosphere
 
-
-
-
-
-
+### DEFENSE
+This represents how hard the ship is to hit. Calculated as Security System + Engines modifier - 1/2 Size (rounded down). Larger ships are easier to hit because they are slower.
 
 ### ACTIONS ABOARD SHIP
 A ship is as much a location for action, as it is a tool for the characters. In many situations, characters may be called upon to attempt Tasks while aboard their own ship. These actions are resolved normally, though at the Gamemaster’s discretion, the character may treat the ship’s facilities and personnel as an Advantage.
@@ -282,29 +261,23 @@ The GM determines the starting distance between two ships.
 | Extended+  | 4+ Hexes                                |
 
 ## Step 2. Initiative
-This is determined as "Side Initiative" the commander of each ship or designee rolls a 1d20 add the Ships SENSORS rating. Whichever side is higher goes first
+Each character rolls initiative as normal. The player in the "Pilot" seat is when the ship physicially moves. The rest of the grew goes in order. GM Determines enemy ship actiosn.
 
-## Step 3. Power Reset
-
-## Step 4. Shield Regen
+## Step 3. Shield Regen
 
 ## Step 5. Actions
-
-
 
 ## Action Economy
 Each player can perform an Action a round. Ships can have only one person assigned to each station or role. 
 
 ### Minor Actions
-| Action              | Difficulty | Power Cost | Test | Effect                                      |
-| ------------------- | ---------- | ---------- | ---- | ------------------------------------------- |
-| Prepare             | 0          | 0          | -    | Some weapons need "Calibration"             |
-| Change Position     | 0          | 0          | -    | Move to another station or part of the ship |
-| Raise/Lower Shields | 0          | 0          | -    | Cannot be done in the same round            |
-| Restore             | 0          | 0          | -    | Some actions call for this                  |
+| Action              | Difficulty | Test | Effect                                      |
+| ------------------- | ---------- | ---- | ------------------------------------------- |
+| Prepare             | 0          | -    | Some weapons need "Calibration"             |
+| Change Position     | 0          | -    | Move to another station or part of the ship |
+| Raise/Lower Shields | 0          | -    | Cannot be done in the same round            |
+| Restore             | 0          | -    | Some actions call for this                  |
 
-
-### Actions
 
 ### Roles
 
@@ -320,65 +293,63 @@ Each player can perform an Action a round. Ships can have only one person assign
 #### CO
 These are considered a free action/minor action and only 1 can be done per round
 
-| Action | Difficulty | Power Cost | Test                 | Effect                                                                                  |
-| ------ | ---------- | ---------- | -------------------- | --------------------------------------------------------------------------------------- |
-| Direct | 0          | 0          | Whatever is assigned | The CO and the person directed attempt a task (such as fire at will) and pool successes |
-| Rally  | 0          | 0          | Cha + Social         | Generates Heroism                                                                       |
+| Action | Test                 | Effect                                                           |
+| ------ | -------------------- | ---------------------------------------------------------------- |
+| Help   | Whatever is assigned | The CO is able to provide advantage on whatever task is assigned |
+
 
 #### Tactical
 
-| Action       | Difficulty                 | Power Cost | Test                                              | Effect                                                                |
-| ------------ | -------------------------- | ---------- | ------------------------------------------------- | --------------------------------------------------------------------- |
-| Fire Weapon  | Depends on weapon and zone | Energy: 2  | Dex+Operations A: Weapons + Security              | Fire weapon, extra successes can apply 1 damage per if power is spent |
-| Tractor Beam | 2                          | 1          | Dex/Int+Operations/Technical A: Struct + Security | Close range only. Target immobilized by tractor beam                  |
+| Action       | Difficulty               | Test                                                    | Effect                                               |
+| ------------ | ------------------------ | ------------------------------------------------------- | ---------------------------------------------------- |
+| Fire Weapon  | Vs Defense of enemy ship | Ship: 1d20 + Weapons Mod + Security + Player Operations | Fire weapon, if you hit roll damage dice             |
+| Tractor Beam | 2                        | Ship: 1d20 + Struct Mod + Security + Player Operations  | Close range only. Target immobilized by tractor beam |
 
 #### Communications
 
-| Action         | Difficulty | Power Cost | Test                    | Effect                                                                                                        |
-| -------------- | ---------- | ---------- | ----------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Open a Channel | 0          | 0          | Int+Ops A: Comms + Eng  | A channel has been opened and a hailing signal or message has been sent. Only required when there is a reason |
-| Intercept      | Varies     | 0          | Wis+Tech A: Comms + Sec | Success means that the message has been successfully intercepted, and its contents revealed.                  |
-| Signal Jamming | 1,2,3      | 1          | Dex+Ops A:Coms+Sec      | Increase difficulty for target to send/recieve messages by D                                                  |
-| Damage Report  | 1          | 0          | Wis+Ops A Coms+Eng      | Reduce difficulty of one repair task by 1                                                                     |
+| Action         | Difficulty | Test                                                    | Effect                                                                                       |
+| -------------- | ---------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Intercept      | Varies     | Ship: 1d20 + CommsMod + Security + Player Operations    | Success means that the message has been successfully intercepted, and its contents revealed. |
+| Signal Jamming | Step 1,2,3 | Ship: 1d20 + ComsMod + Security + Player Operations     | Targets at disadvatage to send/recieve messages                                              |
+| Damage Report  | 15         | Ship: 1d20 + ComsMod + Engineeering + Player Operations | Next Repair attempt at as advantage                                                          |
 
 #### Navigation
 
-| Action       | Difficulty | Power Cost | Test                 | Effect                                                                        |
-| ------------ | ---------- | ---------- | -------------------- | ----------------------------------------------------------------------------- |
-| Plot Course  | 1          | 0          | Int+Ops A:Comps+Conn | If successful, the next Task the helmsman attempts reduces in Difficulty by 1 |
-| Chart Hazard | 3          | 0          | Int+Ops A:Sen+Conn   | If successful, nominate a single hazard reduced difficulty by 1               |
+| Action       | Difficulty | Test                                              | Effect                                                               |
+| ------------ | ---------- | ------------------------------------------------- | -------------------------------------------------------------------- |
+| Plot Course  | 15         | Ship: 1d20 + CompsMod + Conn + Player Operations  | If successful, the next Task the helmsman attempts is at advantage   |
+| Chart Hazard | Hazard DC  | Ship: 1d20 + SenorsMod + Conn + Player Operations | If successful, nominate a single hazard reduced difficulty by 1 step |
 
 #### Sensors
 
-| Action            | Difficulty | Power Cost | Test                 | Effect                                                                                                    |
-| ----------------- | ---------- | ---------- | -------------------- | --------------------------------------------------------------------------------------------------------- |
-| Sensor Sweep      | 0          | 0          | Int+Mental A:Sen+Sci | 1 success = Obtain Information                                                                            |
-| Scan for Weakness | 1          | 0          | Dex+Mental A:Sen+Sec | Next Attack, before the end of the sensor operator’s next Turn, gains the Piercing 2 quality              |
-| Launch Probe      | 0          | 0          | No Roll              | It reduces the Difficulty of Tasks to make a Sensor Sweep with regards to phenomena near the probe by two |
+| Action            | Difficulty | Test                                               | Effect                                                                                       |
+| ----------------- | ---------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Sensor Sweep      | 10 + Mods  | Ship: 1d20 + SensorsMod + Science + Player Mental  | Basic Information + 1 Obtain Information per Sensor Mod minimum 1 (crit doubles)             |
+| Scan for Weakness | 15         | Ship: 1d20 + SensorsMod + Security + Player Mental | Next Attack, before the end of the sensor operator’s next Turn, gains the Piercing 2 quality |
+| Launch Probe      | No roll    | No Roll                                            | Sensor Sweep at Advantage near target of probe                                               |
 
 #### Security
 
-| Action               | Difficulty | Power Cost | Test                 | Effect                                                                 |
-| -------------------- | ---------- | ---------- | -------------------- | ---------------------------------------------------------------------- |
-| Internal Sensors     | 1          | 0          | Int+Ops A: Sens+Sec  | 1 success = Obtain Information                                         |
-| Deploy Security      | 1          | 0          | Cha+Ops A: None      | Security team dispatched                                               |
-| Internal Containment | 1          | 1          | Int+Ops A: Struc+Sec | Sets up internal containment fields increasing difficulty by successes |
+| Action               | Difficulty | Test                                                   | Effect                                                                           |
+| -------------------- | ---------- | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| Internal Sensors     | 10 + Mods  | Ship: 1d20 + SensorsMod + Security + Player Operations | Basic Information + 1 Obtain Information per Sensor Mod minimum 1 (crit doubles) |
+| Deploy Security      | 10         | Player: 1d20 + Charisma Mod + Operations               | Security team dispatched                                                         |
+| Internal Containment | 1,2,3      | Ship: 1d20 + StructMod + Security + Player Operations  | Sets up internal containment fields increasing difficulty by Step chosen         |
 
 #### Engineering
 
-| Action            | Difficulty          | Power Cost | Test                   | Effect                                                             |
-| ----------------- | ------------------- | ---------- | ---------------------- | ------------------------------------------------------------------ |
-| Power Management  | 2                   | 0          | Dex+Ops                | Gain 1 power per success + 1 Per heroism                           |
-| Regenrate Shields | 1 (2 if no shields) | 1          | Dex+Tech A:Struc + Eng | Ship regains 2 shields per net success + Heroism spent             |
-| Damage Control    | Varies              | 0          | Cha+Technical          | If successful system is restored to function does not fix breaches |
+| Action            | Difficulty            | Test                                                   | Effect                                                             |
+| ----------------- | --------------------- | ------------------------------------------------------ | ------------------------------------------------------------------ |
+| Regenrate Shields | 15 (20 if no shields) | Ship: 1d20 + StrucMod + Engineering + Player Technical | Ship regains Player Technical worth of shields                     |
+| Damage Control    | Varies                | Player: Charisma + Technical                           | If successful system is restored to function does not fix breaches |
 
 #### Helm
-| Action         | Difficulty | Power Cost           | Test                              | Effect                                           |
-| -------------- | ---------- | -------------------- | --------------------------------- | ------------------------------------------------ |
-| Maneuver       | 0          | 1 per Zone traversed |                                   | The ship moves to the specified Zone             |
-| Go to Warp     | 0          | Variable             | Dex + Operations                  | The ship goes to warp                            |
-| Evasive Action | 1          | 1                    | Dex+Operations A:Structure + Conn | All difficulties to hit and be hit increase by 1 |
-| Attack Pattern | 1          | 1                    | Dex + Operations A:Weapons + Conn | Difficulty to hit decreeased by 1                |
+| Action         | Difficulty | Test                                               | Effect                                        |
+| -------------- | ---------- | -------------------------------------------------- | --------------------------------------------- |
+| Maneuver       | 10         |                                                    | The ship moves to the specified Zone          |
+| Go to Warp     | 10         | Player: Dex + Operations                           | The ship goes to warp                         |
+| Evasive Action | 15         | Ship: 1d20 + StrucMod + Conn + Player Operations   | All attacks to hit and be hit at disadvantage |
+| Attack Pattern | 15         | Ship: 1d20 + WeaponsMod + Conn + Player Operations | All attacks to hit target at Advantage        |
 
 ## Simplified Combat
 In a single character game or simplified combat. A ship may take a Move Action (Helm), an Action (Tactical), a Bonus Action (Any other action) every turn.
@@ -502,7 +473,7 @@ The ship has been designed to defend itself from all manner of threats. As such,
 This talent represents a highly-focused starship with many specialists in their field working closely together to perform tasks at peak efficiency. This talent must be taken for a starship to have a department score of 6 through application of a mission profile or through game events and player actions. Starbases do not need this talent to have a department above 5. All tasks that include this Expansive Department have a target number calculated as normal. Whenever the ship assists a task using this department, or performs a task on its own using this department, the ship may re-roll a d20.
 
 ### Extensive Shuttlebays
-The vessel’s shuttlebays are large, well-supplied, and able to support a larger number of active shuttle missions simultaneously. The ship may have twice as many small craft active at any one time as it would normally allow, and it may carry up to two Scale 2 small craft.
+The vessel’s shuttlebays are large, well-supplied, and able to support a larger number of active shuttle missions simultaneously. The ship may have twice as many small craft active at any one time as it would normally allow, and it may carry up to two Size 2 small craft.
 
 ### Fast Targeting Systems
 The ship’s targeting systems can lock weapons on target much faster and more accurately than other ships of its class, giving it an edge in battle. The ship does not suffer the normal Difficulty increase for targeting a specific System on the enemy ship.
@@ -573,10 +544,10 @@ The ship’s hull is infused with reverse-engineered Borg nanite technology that
 The ship is designed with the frontier in mind, with a durable construction and easy access to critical systems that allow repairs to be made easily. Reduce the Difficulty of all Tasks to repair the ship by 1, to a minimum of 1.
 
 ### Saucer Separation
-The ship is designed so that the saucer section can be separated from the engineering section, to operate as two distinct ships. Each section has the same Systems, Departments, Talents, and weapons, but their Scale is one lower than the whole ship (recalculate anything derived from Scale), and each section only has half the Power (round down) that the ship had before separation. Further, if the ship has suffered any damage, ongoing effects of that damage apply equally to both sections. The saucer section, which contains the crew quarters and recreational areas, does not have the capacity to go to warp.
+The ship is designed so that the saucer section can be separated from the engineering section, to operate as two distinct ships. Each section has the same Systems, Departments, Talents, and weapons, but their Size is one lower than the whole ship (recalculate anything derived from Size), and each section only has half the Power (round down) that the ship had before separation. Further, if the ship has suffered any damage, ongoing effects of that damage apply equally to both sections. The saucer section, which contains the crew quarters and recreational areas, does not have the capacity to go to warp.
 
 ### Secondary Reactors
-The ship has additional impulse and fusion reactors, that allow the ship to generate far greater quantities of energy. Increase the ship’s normal Power capacity by 5.
+The ship has additional impulse and fusion reactors, that allow the ship to generate far greater quantities of energy. Double Engine Modifier.
 
 ### Self-Replicating Mines
 The ship carries mines that are capable of replicating themselves over time, allowing for a more thorough spread filling the area they’re deployed in. The Difficulty of any task made to avoid the mines does not reduce when mines are detonated.
@@ -589,13 +560,13 @@ The vessel’s shield emitters are connected to a network of particle siphons th
 Through a combination of advanced alloys, EM shielding, and electronic countermeasures, the starship is difficult to detect via electromagnetic radiation and subspace sensors. While not a true cloaking device, these vessels can sneak into star systems entirely undetected. Like a cloaking device, utilizing the EM shielding and ECM systems on board requires a Dexterity + Engineering task with a Difficulty of 2. If this task is successful, the maximum Power rating of the ship is reduced by 2 to represent the power usage of the systems and “running silent,” and shields are deactivated. All tasks to detect the stealthy starship have their Difficulty increased by 1. There are no restrictions on weapons fire from the ship using this talent.
 
 ### Specialized Crew (Command)
-Rare in The Alliance, a starship with a specialized crew has had personnel assigned to it primarily from a specific division. During an adventure, if the players wish to introduce supporting characters, they may not use more than half their ship’s Crew Support rating on characters from divisions outside of the ship’s specialty. An example of this is the Crossfield class that is specialized with the Science division and is Scale 4. This means that only two crew points could be used for supporting characters from the Command or Operations divisions, while the other two could be used only for the Science division.
+Rare in The Alliance, a starship with a specialized crew has had personnel assigned to it primarily from a specific division. During an adventure, if the players wish to introduce supporting characters, they may not use more than half their ship’s Crew Support rating on characters from divisions outside of the ship’s specialty. An example of this is the Crossfield class that is specialized with the Science division and is Size 4. This means that only two crew points could be used for supporting characters from the Command or Operations divisions, while the other two could be used only for the Science division.
 
 ### Specialized Crew (Operations)
-Rare in The Alliance, a starship with a specialized crew has had personnel assigned to it primarily from a specific division. During an adventure, if the players wish to introduce supporting characters, they may not use more than half their ship’s Crew Support rating on characters from divisions outside of the ship’s specialty. An example of this is the Crossfield class that is specialized with the Science division and is Scale 4. This means that only two crew points could be used for supporting characters from the Command or Operations divisions, while the other two could be used only for the Science division.
+Rare in The Alliance, a starship with a specialized crew has had personnel assigned to it primarily from a specific division. During an adventure, if the players wish to introduce supporting characters, they may not use more than half their ship’s Crew Support rating on characters from divisions outside of the ship’s specialty. An example of this is the Crossfield class that is specialized with the Science division and is Size 4. This means that only two crew points could be used for supporting characters from the Command or Operations divisions, while the other two could be used only for the Science division.
 
 ### Specialized Crew (Science)
-Rare in The Alliance, a starship with a specialized crew has had personnel assigned to it primarily from a specific division. During an adventure, if the players wish to introduce supporting characters, they may not use more than half their ship’s Crew Support rating on characters from divisions outside of the ship’s specialty. An example of this is the Crossfield class that is specialized with the Science division and is Scale 4. This means that only two crew points could be used for supporting characters from the Command or Operations divisions, while the other two could be used only for the Science division.
+Rare in The Alliance, a starship with a specialized crew has had personnel assigned to it primarily from a specific division. During an adventure, if the players wish to introduce supporting characters, they may not use more than half their ship’s Crew Support rating on characters from divisions outside of the ship’s specialty. An example of this is the Crossfield class that is specialized with the Science division and is Size 4. This means that only two crew points could be used for supporting characters from the Command or Operations divisions, while the other two could be used only for the Science division.
 
 ### Tachyon Detection Field
 The ship is equipped with a field generator that projects a cloud of tachyons around it. Activating the field generator requires a Dexterity + Engineering task with a Difficulty of 2, assisted by the ship’s Sensors + Science, and has a Power requirement of 2. The field remains active until the ship moves. While the field is active, the ship is notified of any cloaked vessels that are within or pass into Close range. The ship may attack a cloaked target within the field, though the Difficulty for the attack is increased by 2.
@@ -614,4 +585,18 @@ Depleting: At the end of each round a target remains within the tractor beam, it
 Draining: At the end of each round a target remains within the tractor beam, it loses 1 Power.
 25th century or later
 
+
+# Notes
+
+## Systems
+
+Set by Spaceframe
+
+## Departments
+
+Set by Mission Profile
+
+## Talents
+
+Size / 2 rounddown
 

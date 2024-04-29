@@ -74,10 +74,33 @@
 - 2211-2279 Relative peace settles over the known galaxy. All the nations of the Free Republic focus inward on exploration, scientific discovery, and exploring new worlds. During this time the boundaries of the Core sector are pushed outwards 
 - 2279 The Synthar send a ship that tears across the known regions cutting a path of destruction. The combined fleet has to work together to defeat it and this lays a lot of ground work for cooperation. 
 - 2284 The first draft of the Articles of Alliance are created and start circulating for debate to create a new unified government for all member planets
-- 2302 - The Planetary Alliance is formed. Alliance command is set in St Louis Missouri on Earth under the Gateway bridge as a symbol for the Alliance being the gateway to the galaxy
+- 2300 - The Planetary Alliance is formed. Alliance command is set in St Louis Missouri on Earth under the Gateway bridge as a symbol for the Alliance being the gateway to the galaxy
 - 2302-2350 new species join during a relatively peaceful time focused on science, exploration, and discovery
 - 2310 - Game begins
 
+## Time and Calendars
+
+In the year 2150 time changed on how it was kept. Especially on Earth (this becomes a big deal later when the Planetary Alliance bases its home base in St Louis Missouri). The clanedar was changed to do away with the Gregorian Calendar and instead focus on Solar time.  Earth did away with Months and days and instead went to a 365 day year rekoning tracking the day, this made each day 23.95 hours long after eliminating daylight savings they found it really did not affect much because removing the months meant they were no longer tied to the lunar cycle.
+
+After the creation of the Planetary Union in 2300 with the headquarters on Earth. It was decided they would use a 24 hour day/366 day year on the Star Ships as there are more humans in the Alliance than any other race and it aligns with Alliance Command on Earth. Instead of using the Earth system for dates they opted for a realignment around a High Elven system so they took the year minus the founding of the Alliance and began counting from there.
+
+Meaning the Planetary Alliance acccords were signed 0167.16 June 15th, 2300 at 4PM under the St. Louis Arch in St. Louis Missouri. This is also the only holiday recognized acorss the Alliance as "Founding Day" its an intergalactic holiday where everyone is encouraged to take the day off if possible, if you have to work a shift you are given another day off of your choosing. 
+
+### Starlogs
+You can do this the simple way:
+
+2310167.16 = June 15th, 2310 4PM
+
+OR the way Astra Genesis does it.
+
+Take the year - 2300 (founding of the Alliance) and the day of the year.
+
+10167.16 = June 15th, 2310 4PM
+
+150167.16 = June 15th, 2450 4PM
+
+## Holidays
+No other holiday besides Founding Day is recognized and enforced by any member of the Alliance can request time to spend on holidays for their faith, and cultural observances regardless of when they are even during times of war. 
 
 ## The Breach
 Not much is known about The Breach.
